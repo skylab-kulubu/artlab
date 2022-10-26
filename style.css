@@ -9,7 +9,10 @@
 html{
   scroll-behavior: smooth;
 }
-
+a{
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  text-decoration: none;
+}
 body {
   background-color: #081852;
   overflow-x: hidden;
