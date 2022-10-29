@@ -23,6 +23,13 @@ body {
   height: 5rem;
   padding-left: 3rem;
 }
+#ykt{
+  text-align: center;
+}
+#ykt img{
+  height: 12rem;
+  margin-top: -4rem;
+}
 
 .navbar {
   background-color: #081852;
@@ -144,7 +151,7 @@ body {
 }
 .card img{
   object-fit: contain;
-  height: 17rem;
+  height: 15rem;
   margin-top: 1rem;
 }
 .cardtop{
@@ -317,9 +324,14 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
+  #ykt img{
+    margin-top:0rem;
+  }
+  
   .card {
     width: 100%;
   }
+
   .cardbottom {
     flex-direction: column;
   }
@@ -330,7 +342,7 @@ h4 {
     overflow-x: hidden;
   }
 .icons{
-  margin-top: 30rem;
+  margin-top: 27rem;
   display: flex;
   flex-direction: column;
 }
@@ -423,6 +435,7 @@ h4 {
   padding: 10px 20px;
 }
 
+
 #btn2 {
   background-color: #081852;
   width: 10rem;
@@ -502,3 +515,4 @@ h4 {
   padding-left: 7rem;
   margin-top: -3rem;
 }
+
