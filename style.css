@@ -40,7 +40,7 @@ body {
   justify-content: space-between;
   position: fixed;
   z-index: 3;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 .navbar_right .buttons button {
