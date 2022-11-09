@@ -18,7 +18,16 @@ body {
   overflow-x: hidden;
   font-family: 'Comfortaa', cursive;
 }
-
+#turk{
+  height: 8rem;
+  text-align: center;
+}
+#yp{
+  margin-top: -40px;
+}
+#turk img{
+  margin-left: 3rem;
+}
 #artlab_logo {
   height: 5rem;
   padding-left: 3rem;
@@ -28,7 +37,7 @@ body {
 }
 #ykt img{
   height: 12rem;
-  margin-top: -4rem;
+  margin-top: -3rem;
 }
 
 .navbar {
@@ -217,7 +226,9 @@ h4 {
   font-size:1.2rem;
   padding-bottom:2rem;
 }
-
+#urun{
+  margin-top: 4rem;
+}
 .icon img{
   height: 6rem;
   padding: 0.5rem;
@@ -348,7 +359,7 @@ h4 {
     overflow-x: hidden;
   }
 .icons{
-  margin-top: 27rem;
+  margin-top: 34rem;
   display: flex;
   flex-direction: column;
 }
@@ -524,4 +535,3 @@ h4 {
   padding-left: 7rem;
   margin-top: -3rem;
 }
-
