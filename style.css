@@ -445,6 +445,10 @@ h4 {
   .cevap{
     font-size: 10px;
   }
+
+  .footer{
+    margin-top: 430px;
+  }
 }
 .navbar_right {
   display: flex;
@@ -608,3 +612,49 @@ h4 {
   display: none;
 }
 
+.footer{
+  height:20rem;
+}
+.footer .img_box{
+  text-align: center;
+}
+.img_box img{
+  height: 8rem;
+  margin-top: 6rem;
+}
+
+.footer_social_media_icons{
+/*  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  */
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.social_media_icon a{
+  color:white;
+  font-size: 2rem;
+}
+.social_media_icon a:hover{
+  color: rgb(181, 48, 48);
+  transition: 0.5s;
+  
+}
+.skylab_box{
+  text-align: center;
+  height: 5rem;
+  margin-top: 2rem;
+}
+.skylab_box .link a{
+  color: white;
+  border-bottom: 2px solid rgb(100, 137, 236) ;
+  font-size: 20px;
+}
+.skylab_box .link a:hover{
+  border-top: 2px solid rgb(181, 48, 48);
+  border-bottom: 0;
+}
