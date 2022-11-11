@@ -28,6 +28,10 @@ body {
 #turk img{
   margin-left: 3rem;
 }
+.fa-solid{
+  color: white;
+  font-size: 1.5rem;
+}
 #artlab_logo {
   height: 5rem;
   padding-left: 3rem;
