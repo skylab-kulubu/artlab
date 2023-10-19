@@ -10,8 +10,8 @@ html{
   scroll-behavior: smooth;
 }
 a{
-  padding: 0.5rem 2rem 0.5rem 2rem;
   text-decoration: none;
+  color: white;
 }
 body {
   background-color: #081852;
@@ -41,7 +41,10 @@ body {
 }
 #ykt img{
   height: 12rem;
-  margin-top: -3rem;
+}
+
+#in-text-link{
+  text-decoration-line: underline;
 }
 
 .navbar {
@@ -464,6 +467,7 @@ h4 {
 
 
 #btn2 {
+  padding: 0.5rem 2rem 0.5rem 2rem;
   background-color: #081852;
   width: 10rem;
   height: 3rem;
