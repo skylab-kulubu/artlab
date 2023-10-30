@@ -18,9 +18,10 @@ body {
   overflow-x: hidden;
   font-family: 'Comfortaa', cursive;
 }
-#turk{
-  height: 8rem;
-  text-align: center;
+.icon-gold img{
+  height: 20rem;  
+  margin: 0 auto;
+  display: block;
 }
 #yp{
   margin-top: -40px;
@@ -221,6 +222,15 @@ h4 {
   padding: 1.2rem;
   font-size: 1.5rem;
 }
+.gold-title h2{
+  font-weight: 1000;
+  font-size: 45px;
+  color: white;
+}
+
+.icon-fuaye img{
+  height: 8rem;
+}
 .icons{
   height: 6rem;
   display: flex;
@@ -235,6 +245,10 @@ h4 {
 }
 #urun{
   margin-top: 4rem;
+}
+.icon-containar{
+  width: 100%;
+  margin: 0 auto;
 }
 .icon img{
   height: 6rem;
