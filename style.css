@@ -228,6 +228,11 @@ h4 {
   color: white;
 }
 
+#fuaye{
+  margin-top: 5rem;
+  padding-top: 2rem;
+}
+
 .icon-fuaye img{
   height: 8rem;
 }
@@ -268,6 +273,9 @@ h4 {
   font-size: 1.3rem;
   color: rgb(192, 181, 181);
 }
+
+
+
 #backtotop {
   position: fixed;
   bottom: 10px;
@@ -286,10 +294,11 @@ h4 {
 .soru{
   font-size: 20px;
   font-weight: 800;
+  margin-bottom:0.5rem;
 }
 .cevap{
   font-size: 18px;
-  margin-bottom:0.5rem;
+  margin-bottom:1rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -362,6 +371,8 @@ h4 {
     bottom: 10%;
   }
 
+  
+
 }
 
 @media screen and (max-width: 768px) {
@@ -383,14 +394,35 @@ h4 {
     overflow-x: hidden;
   }
 .icons{
-  margin-top: 34rem;
+  margin-top: 17rem;
   display: flex;
   flex-direction: column;
 }
 .icon{
   padding-bottom:2rem ;
+  
 }
-  .hidden {
+.icon img{
+  height: 10rem;
+  
+}
+
+
+#gold-title2 {
+  width : 768px;
+  height: auto;
+  max-width: 100%;
+  font-size: 36px;
+  
+}
+
+#turk {
+  width: 768px; /* Set the desired width */
+  max-width: 100%; /* Limit the maximum width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+  .hidden { 
     display: none;
   }
 
@@ -441,6 +473,7 @@ h4 {
   }
   .main .main-right .main-right-img-hex {
     margin-top: 50px;
+    
   }
   .main .main-right .main-right-img-logo {
     width: 22%;
@@ -448,6 +481,12 @@ h4 {
     right: 25%;
     bottom: 10%;
   }
+
+.main-right-parentDiv{
+  justify-content: center;
+  
+}
+
   .main .main-left .artlab-title {
     font-size: 4rem;
   }
@@ -463,15 +502,35 @@ h4 {
     font-size: 1.5rem;
   }
    .soru{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 800;
   }
   .cevap{
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  #urun{
+    margin-top: 2rem;
+  }
+
+  #fuaye {
+    margin-top : 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fuaye-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .footer{
-    margin-top: 430px;
+    margin-top: 300px;
+    padding-top: 90px;
   }
 }
 .navbar_right {
@@ -639,6 +698,7 @@ h4 {
 
 .footer{
   height:20rem;
+  margin-top: 100px;
 }
 .footer .img_box{
   text-align: center;
