@@ -380,6 +380,14 @@ h4 {
     margin-top:0rem;
   }
 
+  .icons-containar{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  }
+
   .card {
     width: 100%;
   }
@@ -511,6 +519,7 @@ h4 {
 
   #urun{
     margin-top: 2rem;
+    margin-bottom: 20px;
   }
 
   #fuaye {
