@@ -540,6 +540,12 @@ h4 {
     width: 100%;
   }
 
+  #bronze-logo{
+    width: 768px; /* Set the desired width */
+    max-width: 100%; /* Limit the maximum width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
   .cardbottom {
     flex-direction: column;
   }
