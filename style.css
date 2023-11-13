@@ -23,6 +23,12 @@ body {
   margin: 0 auto;
   display: block;
 }
+.icon-ana img{
+  height: 20rem;  
+  margin: 0 auto;
+  display: block;
+}
+
 #yp{
   margin-top: -40px;
 }
@@ -37,11 +43,11 @@ body {
   height: 5rem;
   padding-left: 3rem;
 }
-#ykt{
-  text-align: center;
-}
-#ykt img{
+
+#ykt {
   height: 12rem;
+  margin: 0 auto;
+  margin-bottom: 3rem; 
 }
 
 #in-text-link{
@@ -229,6 +235,13 @@ h4 {
   font-size: 45px;
   color: white;
 }
+
+.Ana_Sponsor h2{
+  font-weight: 1000;
+  font-size: 45px;
+  color: white;
+}
+
 
 #fuaye{
   margin-top: 5rem;
@@ -441,6 +454,10 @@ h4 {
   border-top: 6px solid #e0dada;
 }
 
+#ana-title{
+  margin-bottom: 3rem;
+}
+
 
 @media screen and (max-width: 992px) {
   body {
@@ -518,12 +535,15 @@ h4 {
 }
 
 @media screen and (max-width: 768px) {
-  #ykt img{
-    margin-top:0rem;
-  }
-
+  
   .card {
     width: 100%;
+  }
+
+  #bronze-logo{
+    width: 768px; /* Set the desired width */
+    max-width: 100%; /* Limit the maximum width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
   }
 
   .cardbottom {
@@ -549,6 +569,14 @@ h4 {
   
 }
 
+#ana-title {
+  width : 768px;
+  height: auto;
+  max-width: 100%;
+  font-size: 36px;
+  
+}
+
 
 #gold-title2 {
   width : 768px;
@@ -556,6 +584,12 @@ h4 {
   max-width: 100%;
   font-size: 36px;
   
+}
+
+#ykt {
+  width: 700px; /* Set the desired width */
+  max-width: 95%; /* Limit the maximum width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
 }
 
 #turk {
